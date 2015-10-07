@@ -10,6 +10,7 @@
 #define WATER_H
 #include<iostream>
 #include"puzzle.h"
+#include <stdlib.h>
 
 using namespace std;
 
