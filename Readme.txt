@@ -1,3 +1,4 @@
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The first puzzle is a clock. The clock only has an hour hand, where N is the number of hours, which can be turned 
 forward or backward one hour at a time (called a step). There are three parameters associated with the clock:
 
@@ -19,10 +20,7 @@ time. For example:
     Step 2:  15
     Step 3:  14
 
-Changes in Solver:
---------------------
-Changed vector to queue and implemented map in order to avoid the repeated iterations
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Water Puzzle:
 
 Water puzzle accepts 3 arguments from command line.
@@ -36,8 +34,7 @@ The program is run from the command line as:
     -> g++ water.cpp
 	->./a.out {goal} {quantity of jug1} {quantity of jug2} . . . 
 
-
-submission 4:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	
 LLoyd puzzle:
 
@@ -53,16 +50,5 @@ The program is run from the command line as:
 	->./a.out inputfile outputfile
 	
 *A sample input file Test.txt is provided. It takes 40 secs to execute.
-
-Changes in water puzzle:
---------------------------
- 	
-Included a check condition so that the puzzle won't run if the input start time is grater than the maximum time.
-
-Changes in solver:
---------------------------
-
-changed the vector back to queue to improve the performance as the we are deleting the first element every iteration.
-	
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Note: Compile all the file before running 
